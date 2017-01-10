@@ -1,38 +1,50 @@
-html {overflow: -moz-scrollbars-vertical;}
+html {
+    overflow: -moz-scrollbars-vertical;
+}
 
 body {
-	background: #FFFFFF;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	color: #3C3D3F;
+    background: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #3C3D3F;
     text-align: left;
+    max-width: 800px;
+    margin: auto;
 }
 
-header{
-    display:flex;
-    margin-top:36px;
-    justify-content:flex-end;
+header {
+    display: flex;
+    margin-top: 36px;
+    justify-content: flex-end;
 }
 
-header h1{
+header h1 {
     margin: 0px;
-    padding-top:4px;
-    width:100%;
-    font-size:48px;
+    padding-top: 4px;
+    width: 100%;
+    font-size: 48px;
 }
 
-.header_button{
+.header_button {
     height: 64px;
     width: 80px;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-#close_button{
+.message_content{
+     margin-bottom:10px;
+     font-size: 20px;
+     border-radius:10px;
+     padding:5px 10px 5px 10px;
+}
+
+
+#close_button {
     background-image: url('../media/close33.png');
 }
 
-footer{
+footer {
     margin-top: 20px;
-    text-align:center;
+    text-align: center;
 }
