@@ -25,9 +25,9 @@ header h1 {
     font-size: 48px;
 }
 
-#profile_button{
-  background-image: url('../media/user.png');
-  background-size: 65%;
+#profile_button {
+    background-image: url('../media/user.png');
+    background-size: 65%;
 }
 
 .header_button {
@@ -37,16 +37,20 @@ header h1 {
     background-repeat: no-repeat;
 }
 
-.message_content{
-     margin-bottom:10px;
-     font-size: 20px;
-     border-radius:10px;
-     padding:5px 10px 5px 10px;
+.message_content {
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
 }
-
 
 #close_button {
     background-image: url('../media/close33.png');
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
 }
 
 footer {
