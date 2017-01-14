@@ -25,6 +25,11 @@ header h1 {
     font-size: 48px;
 }
 
+#profile_button{
+  background-image: url('../media/user.png');
+  background-size: 65%;
+}
+
 .header_button {
     height: 64px;
     width: 80px;
